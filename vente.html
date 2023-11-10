@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="/css/normalise.css">
+        <link rel="stylesheet" href="/css/nb.css">
+        <title>Club auto</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" 
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" 
+        crossorigin="anonymous" 
+        referrerpolicy="no-referrer" >
+    </head>
+    <body>
+  <!---------------------------------------HEADER---------------------------------------->
+
+
+
+                                <!------------------------------------ BEFORE NAV 6------------------------------------>
+        
+                                <header id="mainHeader">
+                                    <div id="beforenav"> 
+                                        <i class="fa-solid fa-bars"></i>
+                                        <h1>CLUB AUTO</h1>
+                                            <div class="blockadresse">
+                                                <img src="../Img/icone-adresse.png" alt="Icone adresse" id="logoadresse">    
+                                                <div id="adresse">
+                                                    <p><span>ADRESSE :<br></span>AVENUE CHARLES DE GAULLE <br> 75000 PARIS </p>
+                                                </div>
+                                            </div>  
+                                            <div class="blocktelephone">
+                                                <img src="../Img/icon-telephone.png" alt="icone-adresse" id="logotelephone">
+                                                <div id="telephone">
+                                                    <p><span>TÉLÉPHONE :</span><br> 01 23 45 67 89</p>
+                                                </div>
+                                            </div>
+                                            <div id="ouverturehoraires">    
+                                                <p><span>OUVERTURE : </span> Du Lundi au Samedi</p>
+                                                <p><span>HORAIRES : </span> De 9h à 17h</p>
+                                            </div>
+                                            <div id="fbtwiter">
+                                                <i class="fa-brands fa-facebook"></i>
+                                                <i class="fa-brands fa-twitter"></i>
+                                            </div>      
+                                    </div>
+                                    
+                                                <!----------------------- FIN BEFORE BAR ----------------------------------------------->
+                                    
+                                    
+                                                <!------------------------ DEBUT NAV BAR --------------------------------------------->
+                                    
+                                    
+                                    <nav id="mainnav">
+                                        <ul>
+                                            <li><a href="index.html">ACCUEIL</a></li>
+                                            <li><a href="vente.html">VENTE</a></li>
+                                            <li><a href="location.html">LOCATION</a></li>
+                                            <li><a href="contact.html">CONTACT</a></li>
+                                        </ul>
+                                    </nav>
+                                </header>  
+                    
+                     
+                     
+                                                <!-------------------- FIN NAVBAR ------------------------------->
+                     
+                     
+<!-----------------   FIN HEADER ------------------------------>
+
+
+                                <!------------------ DEBUT PAGE CONTENT VENTE  1 ------------->
+                            
+
+
+        <div id="titleloc">
+            <h1>VENTE</h1>
+        </div>
+    <div id="premierepartielocvente">
+        <div id="choixprix">
+            <label>ORDRE :</label>
+                <select>
+                    <option value="prixcroissant">Prix : Croissant</option>
+                    <option value="prixdecroissant">Prix : Décroissant</option>
+                </select>
+        </div>
+        <aside id="rightcolonelocation">
+            <div id="searchbarre">
+                <img src="../Img/icone-voiture.png" alt="icone de voiture" id="logovoiture">
+                <h3>Rechercher</h3>
+            </div>
+            <form id="formulairechoixlocation">
+                <div id="containerchoix">
+                    <select>
+                        <option value="Type">Type</option>
+                        <option value="Typee">Typee</option>
+                    </select>
+                    
+                    <select>
+                        <option value="Carburant">Carburant</option>
+                        <option value="Carburantt">Carburantt</option>
+                    </select>
+                    
+                    <select>
+                        <option value="Marque">Marque</option>
+                        <option value="Marquee">Marquee</option>
+                    </select>
+            
+                    <select>
+                        <option value="Modèle">Modèle</option>
+                        <option value="Modèlee">Modèlee</option>
+                    </select>
+            
+                    <select>
+                        <option value="Kilométrage maximal">Kilométrage maximal</option>
+                        <option value="Kilométrage maximall">Kilométrage maximall</option>
+                    </select>
+                    <select>
+                        <option value="Ancienneté">Ancienneté</option>
+                        <option value="Anciennetée">Anciennetée</option>
+                </div>
+                    </select>
+                <div id="prixlocation">
+                    <p>Prix</p>
+                    <div>
+                        <input type="range" id="prix" name="prix"min="2000" max="80000">
+                        
+                            <label for="volume"></label>
+                    </div>
+                </div>
+                <div id="minmax">    
+                    <div>
+                        <input type="number" id="numbermin" name="numbermin" placeholder="2000"min="2000" max="80000">
+                    </div>
+                    <div>
+                        <input type="number" id="numbermax" name="numbermin" placeholder="80000"min="2000" max="80000">
+                    </div>
+                </div>
+                <div id="buttonreset">
+                    <input type="reset" value="RÉINITIALISER ">
+                </div>
+            </form>
+        </aside> 
+    </div> 
+
+
+                    <!-------------------------- FIN PAGE CONTENT VENTE 1 ------------------------->
+
+
+
+                    <!-----------------------------DEBUT PAGE CONTENT VENTE 2 ------------------------>
+
+
+
+
+        <section id="leftlocation">
+            <div id="containerlocation">
+                    <div class="traitloc"></div>
+                    <div class="blockloc">
+                            <img src="../Img/vehicule2.jpg" alt="vehiculelocation1" class="voiturelocation">
+                        <div class="blockcontent">
+                            <div>
+                                <h3>BMW 535i, Navi, Leather, ABS</h3>
+                                <button type="button" >5000&euro;</button>
+                            </div>
+                            <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi sit sapiente
+                                assumenda magnam dolorem eveniet fuga quae obcaecati. Facilis nulla aliquid 
+                                sequi. Ipsa omnis hic veritatis beatae esse laborum eius velit temporibus.</p>
+                        <a href="vehiculedetail.html">&gt;&gt; En savoir plus &lt;&lt; </a>
+                        </div>
+                    </div>
+                    <div class="traitloc"></div>
+                    <div class="blockloc">
+                            <img src="../Img/vehicule2.jpg" alt="vehiculelocation1" class="voiturelocation">
+                        <div class="blockcontent">
+                            <div>
+                                <h3>BMW 535i, Navi, Leather, ABS</h3>
+                                <button type="button" >5000&euro;</button>
+                            </div>
+                            <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi sit sapiente
+                            assumenda magnam dolorem eveniet fuga quae obcaecati. Facilis nulla aliquid 
+                            sequi. Ipsa omnis hic veritatis beatae esse laborum eius velit temporibus.</p>
+                            <a href="vehiculedetail.html">&gt;&gt; En savoir plus &lt;&lt; </a>
+                        </div>
+                    </div>
+                    <div class="traitloc"></div>
+                <div class="blockloc">
+                    <img src="../Img/vehicule2.jpg" alt="vehiculelocation1" class="voiturelocation">
+                        <div class="blockcontent">
+                            <div>
+                                <h3>BMW 535i, Navi, Leather, ABS</h3>
+                                <button type="button" >5000&euro;</button>
+                            </div>
+                            <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi sit sapiente
+                            assumenda magnam dolorem eveniet fuga quae obcaecati. Facilis nulla aliquid 
+                            sequi. Ipsa omnis hic veritatis beatae esse laborum eius velit temporibus.</p>
+                            <a href="vehiculedetail.html">&gt;&gt; En savoir plus &lt;&lt; </a>
+                        </div>
+                </div>       
+                    <div class="traitloc"></div>
+                <div class="blockloc">
+                    <img src="../Img/vehicule2.jpg" alt="vehiculelocation1" class="voiturelocation">
+                            <div class="blockcontent">
+                                <div>
+                                    <h3>BMW 535i, Navi, Leather, ABS</h3>
+                                    <button type="button" >5000&euro;</button>
+                                </div>
+                                <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi sit sapiente
+                                assumenda magnam dolorem eveniet fuga quae obcaecati. Facilis nulla aliquid 
+                                sequi. Ipsa omnis hic veritatis beatae esse laborum eius velit temporibus.</p>
+                                <a href="vehiculedetail.html">&gt;&gt; En savoir plus &lt;&lt; </a>
+                            </div>
+                </div>
+                    <div class="traitloc"></div>
+            </div>
+
+        </section>
+
+
+                                    <!---------------------------- FIN PAGE CONTENT 2 -------------------->
+
+                                    
+
+
+                                    <!-------------------------- FOOTER  ------------------------------>
+
+        
+                                    <footer>
+                                        <div class="footer">
+                                            <div>
+                                                <H4><span>CLUB</span> AUTO</H4>
+                                                <p>Lorem ipsum dolor sit amet consectetur. adipisicing elit
+                                                elit. Delectus sed molestias vero libero. Commodi reiciendis 
+                                                reiciendis quasi .</p>
+                                            </div>
+                                            <div id="horaire">
+                                                <h4>HORAIRES D'OUVERTURE</h4>
+                                                <p>Lundi - Samedi :<span> 9H00 - 17H00</span> <br>Dimanche et jours fériés :<span> Fermé</span></p>
+                                                
+                                            </div>
+                                            <div id="news">
+                                                <h4>NEWSLETTER</h4>
+                                                    <form id="NEWSLETTER" action="abonné.html">
+                                                        <label for="email"></label>
+                                                        <input type="email" name="email" id="email" placeholder="Entrez votre email">
+                                                        <button type="submit"><i class="fa-solid fa-wifi"></i></button>            
+                                                    </form>
+                                                        <p>Inscrivez-vous pour recevoir les dernières offres</p>
+                                            </div>
+                                            <div>
+                                                <h4> RESEAUX SOCIAUX</h4>
+                                                <i class="fa-brands fa-facebook"></i>
+                                                <i class="fa-brands fa-square-twitter"></i>
+                                                <i class="fa-brands fa-instagram"></i>
+                                                <i class="fa-brands fa-google"></i>
+                                                <i class="fa-brands fa-youtube"></i>
+                                            </div>
+                                        </div>
+                                        <div class="Copyright">   
+                                        <p> Copyright © Club Auto - Tout droits réservés</p>    
+                                        </div>  
+                                </footer>
+                        
+                                                            <!---------------------- FIN FOOTER ---------------------------->
+                        
+                            </body>
+                        </html>
